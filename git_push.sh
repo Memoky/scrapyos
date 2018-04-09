@@ -2,7 +2,7 @@
 echo "正在添加文件..."
 git add .
 echo -n "正在提交备注...，请填写备注（可空）:"
-if [  $1 !=' ' ];then  
+if [[  $1!=' ' ]];then  
    msg=$1;  
 else  
    msg='commit ';  
