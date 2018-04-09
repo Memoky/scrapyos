@@ -10,4 +10,4 @@ class BlogSpider(Spider):
             '//head/title/text()').extract()
         for title in titles:
             print title
-# adasdsaSas
+# ssadasdsaSas
