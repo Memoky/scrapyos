@@ -5,7 +5,7 @@ echo -n "正在提交备注..."
 remarks=$1
 if [ ! $remarks ] 
 then
-   msg="commit  ";  
+   msg="commit ";  
 else
    msg=$remarks;  
 fi
