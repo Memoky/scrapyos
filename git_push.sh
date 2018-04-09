@@ -3,7 +3,7 @@ echo "正在添加文件..."
 git add .
 echo -n "正在提交备注..."
 if [[  $1=' ' ]];then  
-   msg='commit '; 
+   msg='commit ';  
 else  
    msg=$1;  
 fi 
