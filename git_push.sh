@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 echo "正在添加文件..."
 git add .
-echo -n "正在提交备注...，请填写备注（可空）:"
-if [[  $1!=' ' ]];then  
-   msg=$1;  
+echo -n "正在提交备注..."
+if [[  $1=' ' ]];then  
+   msg='commit '; 
 else  
-   msg='commit ';  
+   msg=$1;  
 fi 
 git commit -m "$msg"
 echo "正在开始提交代码..."
