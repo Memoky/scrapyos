@@ -10,4 +10,4 @@ class BlogSpider(Spider):
             '//a[@class="post-title-link"]/text()').extract()
         for title in titles:
             print title.strip()
-# adasdsa
+# adasdsaSas
