@@ -22,7 +22,7 @@ class DoubanMovieItem(scrapy.Item):
 
 
 class WorldCupItem(scrapy.Item):
-    time = scrapy.Field()
-    fieldorder = scrapy.Field()
-    match = scrapy.Field()
     city = scrapy.Field()
+    match = scrapy.Field()
+    fieldorder = scrapy.Field()
+    time = scrapy.Field()
