@@ -19,3 +19,10 @@ class DoubanMovieItem(scrapy.Item):
     movie_name = scrapy.Field()
     score = scrapy.Field()
     score_num = scrapy.Field()
+
+
+class WorldCupItem(scrapy.Item):
+    time = scrapy.Field()
+    fieldorder = scrapy.Field()
+    match = scrapy.Field()
+    city = scrapy.Field()
